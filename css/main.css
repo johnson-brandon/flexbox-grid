@@ -105,7 +105,7 @@ html {
 body {
   font-family: 'roboto mono', monospace;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
@@ -123,6 +123,11 @@ header {
   width: 100%;
 }
 
+h1 {
+    font-weight:bolder;
+    font-size: 3em;
+}
+
 main {
     display: flex;
     justify-content: flex-start;
@@ -132,6 +137,10 @@ main {
     border-bottom: 1px solid #CAC0B3;
 }
 
+span {
+    font-family: 'lora', serif;
+    font-size: 1.25em;
+}
 .div-1, .div-2, .div-3 {
     display: flex;
     justify-content: center;
