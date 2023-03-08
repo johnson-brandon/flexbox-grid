@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 16pxm;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -114,7 +114,23 @@ body {
     justify-content: space-between;
     font-weight: 400;
 }
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #CAC0B3;
+  height: 150px;
+  width: 100%;
+}
 
+main {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #CAC0B3;
+    height: 250px;
+    width: 100%;
+}
 .div-1, .div-2, .div-3 {
     display: flex;
     justify-content: center;
@@ -131,7 +147,13 @@ body {
     border-right: 1px solid #CAC0B3;
 }
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAC0B3;
+    height: 80px;
+    width: 100%;
 
 /* ==========================================================================
    Helper classes
