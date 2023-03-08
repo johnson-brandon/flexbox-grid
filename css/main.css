@@ -99,11 +99,11 @@ textarea {
 html {
     background-color: #001233;
     color: #FF595A;
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'roboto mono', monospace;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -119,16 +119,17 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 150px;
+  height: 125px;
   width: 100%;
 }
 
 main {
-  display: flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 250px;
     width: 100%;
+    border-bottom: 1px solid #CAC0B3;
 }
 
 .div-1, .div-2, .div-3 {
@@ -151,6 +152,7 @@ footer {
     justify-content: center;
     height: 80px;
     width: 100%;
+    border-top: 1px solid #CAC0B3;
 
 /* ==========================================================================
    Helper classes
